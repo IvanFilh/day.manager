@@ -1,59 +1,67 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+# Day.Manager
 
-## Available Scripts
+O Day.Manager é um app que auxilia seus usuários no gerenciamento do dia, desenvolvido com TypeScript, React e Chakra UI. Ele oferece uma tela de login e uma tela de dashboard com um menu lateral, proporcionando uma interface intuitiva e eficiente para usuários que têm o desejo de gerenciar de forma mais otimizada o tempo e as atividades do dia.
 
-In the project directory, you can run:
+## Recursos e Funcionalidades
 
-### `npm start`
+- **Tela de Login**: O projeto conta com uma tela de login segura, onde os usuários podem inserir suas credenciais para acessar o sistema. Isso garante a privacidade e a proteção dos dados do usuário.
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Tela de Dashboard**: Após o login, os usuários são direcionados para a tela de dashboard, que apresenta informações relevantes sobre o dia do usuário. Nessa tela, é possível visualizar, filtrar e pesquisar as atividades do dia de forma eficiente.
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+- **Menu Lateral**: O menu lateral proporciona uma navegação simplificada e intuitiva entre as funcionalidades do sistema.
 
-### `npm test`
+- **Escalabilidade e Arquitetura DDD**: O código foi desenvolvido seguindo os princípios da Arquitetura Orientada a Domínio (Domain-Driven Design - DDD), tornando-o escalável e de fácil manutenção. A divisão em camadas bem definidas, como a camada de aplicação, domínio e infraestrutura, proporciona uma estrutura organizada e flexível para o projeto.
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+## Tecnologias Utilizadas
 
-### `npm run build`
+- **TypeScript**: A escolha do TypeScript como linguagem de programação traz vantagens significativas, como a tipagem estática e a melhoria da produtividade do desenvolvimento, além de evitar erros comuns durante a escrita do código.
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
+- **React**: O React é uma biblioteca JavaScript popular e amplamente utilizada para a construção de interfaces de usuário reativas. Sua abordagem baseada em componentes permite criar uma UI reutilizável e modular, simplificando o desenvolvimento do projeto.
 
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
+- **Chakra UI**: Chakra UI é uma biblioteca de componentes para React que fornece uma base sólida para a criação de interfaces de usuário responsivas e esteticamente agradáveis. Ela oferece uma ampla variedade de componentes customizáveis, ajudando a criar uma experiência visual coesa e consistente no projeto.
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+## Pré-requisitos
 
-### `npm run eject`
+Antes de começar a executar o projeto em sua máquina, certifique-se de ter os seguintes requisitos instalados:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js: certifique-se de ter o Node.js instalado em sua máquina. Você pode baixar a versão mais recente do Node.js em https://nodejs.org/.
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+## Instalação e Execução
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
+Siga os passos abaixo para configurar e executar o projeto em sua máquina:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
+1. Clone o repositório do projeto em sua máquina local:
 
-## Learn More
+   ```
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   ```
 
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Acesse o diretório do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   cd study-container-registration
+   ```
+
+3. Instale as dependências do projeto utilizando o npm (ou yarn):
+
+   ```
+   npm ci
+   ```
+
+4. Após a conclusão da instalação das dependências, inicie o servidor de desenvolvimento:
+
+   ```
+   npm start
+   ```
+
+5. O projeto estará disponível em seu navegador através do seguinte endereço: http://localhost:3000.
+
+## Considerações Finais
+
+Este projeto foi desenvolvido utilizando os princípios de código escalável do Domain-Driven Design (DDD) e as tecnologias TypeScript, React e Chakra UI. Esperamos que ele seja útil para empresas que trabalham com importação e exportação de mercadorias, facilitando o gerenciamento de containers de forma eficiente.
+
+Sinta-se à vontade para explorar o código, realizar melhorias e contribuir para o projeto. Se você tiver alguma dúvida ou encontrar algum problema, não hesite em abrir uma issue em nosso repositório.
+
+## Contato
+
+Caso você tenha alguma dúvida, sugestão ou queira entrar em contato, sinta-se à vontade para enviar um e-mail para [ivanrbsf@gmail.com](mailto:ivanrbsf@gmail.com). Agradeço seu interesse neste projeto!
