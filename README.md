@@ -1,6 +1,6 @@
-# Day Manager
+# Day.Manager
 
-é um app que auxilia seus usuários no gerenciamento do dia, desenvolvido com TypeScript, React e Chakra UI. Ele oferece uma tela de login e uma tela de dashboard com um menu lateral, proporcionando uma interface intuitiva e eficiente para usuários que têm o desejo de gerenciar de forma mais otimizada o tempo e as atividades do dia.
+O Day.Manager é um app que auxilia seus usuários no gerenciamento do dia, desenvolvido com TypeScript, React e Chakra UI. Ele oferece uma tela de login e uma tela de dashboard com um menu lateral, proporcionando uma interface intuitiva e eficiente para usuários que têm o desejo de gerenciar de forma mais otimizada o tempo e as atividades do dia.
 
 ## Recursos e Funcionalidades
 
